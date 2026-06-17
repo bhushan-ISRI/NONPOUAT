@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sona-non-po-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sonaNonPo/SonaNonPoWebPart.js",
+          "manifest": "./src/webparts/sonaNonPo/SonaNonPoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SonaNonPoWebPartStrings": "lib/webparts/sonaNonPo/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

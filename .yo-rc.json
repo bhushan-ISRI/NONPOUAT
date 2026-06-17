@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.18.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "sona-non-po",
+    "libraryId": "ae615f8a-5eff-48f0-b8d1-f3ae63666660",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SonaNonPO",
+    "solutionShortDescription": "SonaNonPO description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

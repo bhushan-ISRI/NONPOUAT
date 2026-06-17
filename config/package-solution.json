@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sona-non-po-client-side-solution",
+    "id": "ae615f8a-5eff-48f0-b8d1-f3ae63666660",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+
+    "webApiPermissionRequests": [
+      { "resource": "Microsoft Graph", "scope": "User.Read" },
+      { "resource": "Microsoft Graph", "scope": "User.ReadBasic.All" },
+      { "resource": "Microsoft Graph", "scope": "Group.Read.All" }
+
+    ],
+
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": { "default": "SonaNonPO description" },
+      "longDescription": { "default": "SonaNonPO description" },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sona-non-po Feature",
+        "description": "The feature that activates elements of the sona-non-po solution.",
+        "id": "cb4a0722-6cba-40a1-9284-3c91c78fad8f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sona-non-po.sppkg"
+  }
+}
